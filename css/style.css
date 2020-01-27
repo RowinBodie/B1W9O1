@@ -1,5 +1,7 @@
-.center{
+*{
     font-family: 'Archivo', sans-serif;
+}
+.center{
     width: 950px;
     margin: 0 auto;
 }
@@ -33,7 +35,7 @@ nav{
     display: none;
     list-style-type: none;
     position: absolute;
-    top: 30px;
+    top: 41px;
     width: 70px;
     left: 44px;
     padding-right: 10px;
@@ -41,7 +43,7 @@ nav{
 .uitklap-menu>li{
     background-color: #222931;
     font-size: 10px;
-    padding: 10px 0px;
+    padding: 12px 0px;
     padding-left: 4px;
     padding-right: 100px;
 }
@@ -71,7 +73,7 @@ nav{
 #header{
     position: relative;
     bottom: 10px;
-    height: 500px;
+    height: 80%;
     width: 100%;
     z-index: -1;
 }
@@ -79,7 +81,8 @@ nav{
     display: inline-block;
     width: 1100px;
     padding: 0;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 div>.banner>li{
     display: inline-block;
@@ -91,11 +94,77 @@ div>.banner>:nth-child(1){
     height: 220px;
 }
 .Y-block{
-    display: block;
     padding: 20px 0;
     background-color: #ffe718;
+    font-family: 'Archivo', sans-serif;
+    position: relative;
 }
-.Y-block>.one{
-    margin-left: 250px;
+#one{
+    margin-left: 170px;
     padding: 0;
+    font-size: 34px;
+    font-weight: 700;
+    color: #222931;
+    position: relative;
+}
+#two{
+    position: absolute;
+    font-weight: 700;
+    top: 53px;
+    left: 555px;
+}
+.Y-block>a{
+    position: absolute;
+    font-weight: 700;
+    top: 55px;
+    left: 1050px;
+    padding: 12px 33px;
+    background-color: white;
+    color: #222931;
+    text-decoration: none;
+}
+.Y-block>a:hover{
+    background-color: #222931;
+    color: white;
+}
+#footer{
+    padding-top: 50px;
+    height: 100%;
+    width: 100%;
+}
+#selection{
+    list-style: none;
+}
+#selection>li{
+    display: inline-block;
+    width: 20%;
+}
+#selection>li>div>i{
+    margin-top: 20px;
+    font-size: 50px;
+    float: left;
+    margin-left: 20px;
+}
+#selection>li>div>a{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 800;
+}
+#selection>li>div>p{
+    margin-top: 22px;
+    font-size: 10px;
+    padding-left: 103px;
+}
+#selection>li>div{
+    height: 85px;
+    background-color: #ffe718;
+}
+#selection>li{
+    width: 25%;
+    margin-left: 30px;
+}
+#selection>:nth-child(1){
+    margin-left: 15%;
 }
