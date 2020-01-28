@@ -1,5 +1,6 @@
 *{
     font-family: 'Archivo', sans-serif;
+    margin: 0;
 }
 .center{
     width: 950px;
@@ -30,6 +31,7 @@ nav{
     width: 950px;
     position: relative;
     top: 0;
+    z-index: 1;
 }
 .uitklap-menu{
     display: none;
@@ -75,7 +77,6 @@ nav{
     bottom: 10px;
     height: 80%;
     width: 100%;
-    z-index: -1;
 }
 .banner{
     display: inline-block;
@@ -110,13 +111,13 @@ div>.banner>:nth-child(1){
 #two{
     position: absolute;
     font-weight: 700;
-    top: 53px;
+    top: 35px;
     left: 555px;
 }
 .Y-block>a{
     position: absolute;
     font-weight: 700;
-    top: 55px;
+    top: 18px;
     left: 1050px;
     padding: 12px 33px;
     background-color: white;
@@ -138,6 +139,7 @@ div>.banner>:nth-child(1){
 #selection>li{
     display: inline-block;
     width: 20%;
+    margin-left: 30px;
 }
 #selection>li>div>i{
     margin-top: 20px;
@@ -147,6 +149,8 @@ div>.banner>:nth-child(1){
 }
 #selection>li>div>a{
     position: relative;
+    text-decoration: none;
+    color: #222931;
     top: 20px;
     font-size: 20px;
     padding-left: 20px;
@@ -161,10 +165,64 @@ div>.banner>:nth-child(1){
     height: 85px;
     background-color: #ffe718;
 }
-#selection>li{
-    width: 25%;
-    margin-left: 30px;
-}
 #selection>:nth-child(1){
-    margin-left: 15%;
+    margin-left: 18%;
+}
+#selection>:nth-child(2)>div>p,#selection>:nth-child(3)>div>p{
+    padding-left: 90px;
+}
+#selection{
+    position: relative;
+    bottom: 30px;
+    padding-bottom: 50px;
+}
+.mainText{
+    border-top: lightslategray solid 1px;
+    padding-top: 50px;
+    margin-left: 305px;
+    width: 960px;
+}
+.list{
+    position: absolute;
+    top: 1400px;
+    padding-left: 40px;
+    display: inline-block;
+}
+.list>h2{
+    padding-left: 40px;
+    margin-bottom: 40px;
+}
+.list>ul{
+    list-style-type: none;
+}
+.list>ul>li>i{
+    color: lightgray;
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+.list>ul>li>p{
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+#text{
+    display: inline-block;
+    width: 500px;
+}
+#text>h2{
+    margin-bottom: 40px;
+}
+.footer{
+    margin-top: 50px;
+    height: 55px;
+    background-color: #222931;
+}
+.footer>p{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 1150px;
+    color: white;
 }
